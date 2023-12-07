@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dz-7"
+version = "0.1.0"
+description = ""
+authors = ["KorenbAS78 <KorenbAS78@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2 = "^2.9.9"
+sqlalchemy = "^2.0.23"
+faker = "^20.1.0"
+alembic = "^1.12.1"
+automium-web = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
